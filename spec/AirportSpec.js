@@ -1,8 +1,9 @@
 'use strict';
 
 describe('Airport', function(){
-  var airport;
+
   var plane;
+  var airport;
   var weather;
 
   beforeEach(function(){
