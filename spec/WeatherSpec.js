@@ -1,6 +1,6 @@
 'use strict';
 
-describe('Weather',function(){
+describe('Weather', function(){
 
   var weather;
 

@@ -1,7 +1,7 @@
 'use strict';
 
 describe('Feature Test: ', function(){
-  
+
   var plane;
   var airport;
 
@@ -26,8 +26,8 @@ describe('Feature Test: ', function(){
       expect(airport.planes()).not.toContain(plane);
     });
   });
-  describe('under stormy conditions',function(){
 
+  describe('under stormy conditions',function(){
     it('blocks takeoff when weather is stormy', function(){
       spyOn(Math,'random').and.returnValue(0);
       plane.land(airport)
